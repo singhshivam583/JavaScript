@@ -14,7 +14,7 @@ let isLoggeedIn=false
 
 /*  
 nuumber = 2 to powwer 53
-bigint => it is in the form of hexadecimal
+bigint => 
 string =>""
 boolean=> true/false
 null=> no value (standlone value), it is an object
