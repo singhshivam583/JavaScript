@@ -1,10 +1,10 @@
 // Primitive
 // types : string, boolean, Number, null, undefined, symbol, Bigint 
 
-const abc=null;                        // datatype: object
+const abc=null;                        // datatype:
 const xyz=undefined                   // datatype: undefined
 const id=Symbol('123');              // datatype: symbol
-const anotherId=Symbol('123')   
+const anotherId=Symbol('123');  
 console.log(id===anotherId);
 
 // Reference (Non-Primitive)
@@ -20,3 +20,5 @@ const myFunc=function(){                                    // datatype:object f
 }
 
 console.log(typeof(heros));
+
+
