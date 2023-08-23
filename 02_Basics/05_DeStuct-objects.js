@@ -11,4 +11,3 @@ const course={
 
 const {courseInstructor:instructor}=course
 console.log(instructor); 
-
