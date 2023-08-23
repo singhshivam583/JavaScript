@@ -18,7 +18,7 @@ console.log(real_anotheArr);
 
 console.log(Array.isArray("Shivam"));  // checking 
 console.log(Array.from("Shivam"));     // converting to array
-console.log(Array.from({name:"Shivam",surname:"Singh"}));   
+console.log(Array.from({name:"Shivam"}));   
 
 let score1=100
 let score2=200
