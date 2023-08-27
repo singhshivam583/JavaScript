@@ -20,6 +20,25 @@ let myArr=["flash", "batman", "superman"]
 console.log(myArr.length);
 for (let i = 0; i < myArr.length; i++) {
     const element = myArr[i];
-    console.log(element);
+    // console.log(element);
 
 }
+
+//break and continue
+for (let index = 1; index <=20; index++) {
+    if (index==5){
+        // console.log(`Detected 5`);
+        // break;                            // 
+    }
+    // console.log(`Value of i is ${index}`);
+    
+}
+
+for (let index = 1; index <=20; index++) {
+    if (index==5){
+        console.log(`Detected 5`);            // skip the current loop
+        continue;
+    }
+    console.log(`Value of i is ${index}`);
+    
+} 
