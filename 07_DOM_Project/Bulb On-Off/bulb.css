@@ -1,0 +1,17 @@
+#bulb{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color:white;
+    border: 5px solid blue;
+    margin-left: 40%;
+    
+}
+button{
+    width: 100px;
+    padding: 10px 30px;
+    margin-left: 47%;
+    margin-top:60px ;
+    background-color: lightblue;
+    color: black;
+}
