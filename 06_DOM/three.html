@@ -14,5 +14,13 @@
     console.log(div);
     div.className="main"
     div.id=Math.round(Math.random()*10+1)
+    div.setAttribute("title","generated title")
+    div.style.backgroundColor="green"
+    div.style.padding="12px"
+    // div.innerText='Chai aur Code'                // treversing, firstly it fetch inner text and then it over write new text , it directly not assign new text 
+    const addText=document.createTextNode("Chai aur Code")
+    div.appendChild(addText)   
+    document.body.appendChild(div)
+
 </script>
 </html>
