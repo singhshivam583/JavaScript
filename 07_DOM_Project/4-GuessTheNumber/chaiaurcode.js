@@ -85,8 +85,7 @@ function newGame() {
     remaining.innerHTML = `${11 - numGuess} `;
     userInput.removeAttribute('disabled');
     startOver.removeChild(p);
-    lowOrHi.remove('h2')
-    // displayMessage('')
+    displayMessage('')
     playGame = true;
   });
 }
