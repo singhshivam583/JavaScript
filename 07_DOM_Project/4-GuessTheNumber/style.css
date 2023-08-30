@@ -3,10 +3,9 @@ html {
 }
 
 body {
-  width: 300px;
-  max-width: 750px;
-  min-width: 480px;
-  margin: 0 auto;
+  /* width: 300px; */
+  max-width: 100%;
+  min-width: 50px;
   background-color: #212121;
 }
 
@@ -17,7 +16,6 @@ body {
 
 .guesses {
   color: white;
-  padding: 7px;
 }
 
 button {
