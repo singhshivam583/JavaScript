@@ -11,7 +11,7 @@ console.log(myDate.toDateString())
 
 // let myCreatedDate=new Date(2023,0,22)   // months are start with 0 in js
 // let myCreatedDate=new Date(2023,0,22,5,3,4)
-// let myCreatedDate=new Date("2023-01-14")   // her month start with 1 
+// let myCreatedDate=new Date("2023-01-14")   // here month start with 1 
 let myCreatedDate=new Date("01-14-2023")
 // console.log(myCreatedDate.toLocaleString())
 
