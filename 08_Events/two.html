@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>JavaScript with web3ngineer</h2>
+    <p>Register click events for multiple buttons with same class and on click, a message pop-up appears </p>
+    <button class="btn">Button 1</button>
+    <button class="btn">Button 2</button>
+    <button class="btn">Button 3</button>
+    <button class="btn">Button 4</button>
+</body>
+<script>
+    const buttons = document.querySelectorAll('.btn'); 
+    //     console.log(buttons);
+    // buttons.forEach(function(button){
+    //     button.addEventListener('click',function(e){
+    //         alert(`${e.target.innerHTML} is clicked`)
+    //     })
+    // })
+    for(let i=0;i<buttons.length;i++){
+        buttons[i].addEventListener('click',function(e){
+    //        alert(`${this.innerText} is clicked`);
+            alert(`${e.target.innerText} is clicked`);
+        })    
+    }
+    
+</script>
+</html>
