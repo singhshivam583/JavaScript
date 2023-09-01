@@ -21,8 +21,9 @@ const startChangingColor=function(){
 }
 
 const stopChangingColor=function(){
-     clearInterval(intervalId);
-     intervalId=null;               
+    clearInterval(intervalId);
+    intervalId=null;  
+    console.log(intervalId);             
 }
 
 document.querySelector('#start').
