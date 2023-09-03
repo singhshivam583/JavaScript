@@ -1,3 +1,4 @@
 {
-    "editor.scrollbar.horizontal": "visible"
+    "editor.scrollbar.horizontal": "visible",
+    "editor.acceptSuggestionOnEnter": "on"
 }
