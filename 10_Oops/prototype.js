@@ -1,8 +1,3 @@
-let myName = "shivam     "
-
-// console.log(`True length of string is ${myName.trim().length}`);
-
-// making method to get actual length of string
 
 let myHeros = ["Thor", "Spiderman"]
 
@@ -16,7 +11,7 @@ let heroPower = {
     }
 }
 
-Object.prototype.Shivam = function(){                    //in js all the things revolving arround object. so , when  prototype new function u can access Shivam() everywhere u want like array, string , objects          
+Object.prototype.Shivam = function(){                    //in js all the things revolving arround object. so , when  prototype new function u can access Shivam() everywhere u want like array, string , functions, objects          
     console.log(`shivam is present in all objects`); 
 }
 
@@ -53,14 +48,26 @@ const TASupport ={
 }
 
 Teacher.__proto__ = User
-console.log(Teacher.username);
+// console.log(Teacher.username);
 
 // modern syntax 
 Object.setPrototypeOf(TeachingSupport, Teacher)
 
 
-let anotherUsername = "ChaiAurCode    "
+let myName = "shivam     "
+// console.log(`True length of string is ${myName.trim().length}`);
+
+// making method to get actual length of string
+
+let anotherUsername = "ChaiAurCode     "
+
 String.prototype.trueLength = function(){
-    console.log(`${this}`);
-    console.log(`${this.name}`);
+    // console.log(`${this}`);
+    console.log(`${this.trim()}`);
+    console.log(`Actual Length of ${this.trim()} is:${this.trim().length}`);
 }
+anotherUsername.trueLength()
+"shivam       ".trueLength()
+"    singh    ".trueLength()
+"       icetea".trueLength()
+  
