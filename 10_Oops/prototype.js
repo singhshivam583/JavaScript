@@ -54,3 +54,13 @@ const TASupport ={
 
 Teacher.__proto__ = User
 console.log(Teacher.username);
+
+// modern syntax 
+Object.setPrototypeOf(TeachingSupport, Teacher)
+
+
+let anotherUsername = "ChaiAurCode    "
+String.prototype.trueLength = function(){
+    console.log(`${this}`);
+    console.log(`${this.name}`);
+}
