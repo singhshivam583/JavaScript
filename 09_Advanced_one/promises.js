@@ -94,7 +94,7 @@ fetch('https://api.github.com/users/singhshivam583')
     return response.json()
 })
 .then((data) => {
-    console.log(data)                   // response is stored in data
+    console.log(data)                        // response is stored in data
 })                              
 .catch((error) => console.log(error)) 
 
