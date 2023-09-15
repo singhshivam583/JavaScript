@@ -5,12 +5,13 @@ const foo=()=>{
         let x=20;
     }
 }
-foo()
+// foo()
 
 let c=10
 function abc(){
     if (true){
         let c=20;
+        // console.log(c)
     }
     console.log(c)
     return c;
