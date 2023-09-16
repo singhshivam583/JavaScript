@@ -17,5 +17,5 @@ function abc(){
     return c;
    
 }
-a=abc()
+let a=abc()
 console.log(a)
