@@ -1,4 +1,4 @@
-t constructors and assigning values to it
+// t constructors and assigning values to it
 // let obj1 = { a: 10 };
 // let obj2 = { b: 20 };
 // let obj3 = { c: 30 };
